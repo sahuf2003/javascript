@@ -26,3 +26,60 @@ document.getElementById("mybutton").onclick = function(){
     console.log(naam)
     document.getElementById("mylabel").innerHTML = "hello" + naam
 }
+
+//type conversion
+
+let x;
+let y;
+let z;
+
+x=Number(3.14)
+x+=1
+console.log(x)
+
+//const
+let pi=3.56
+let radius;
+let circumference;
+
+radius = window.prompt("enter the no");
+
+radius = Number(radius)
+
+const PI = 98
+circumference = 2 * PI * radius
+console.log(circumference)
+
+
+Math
+
+x = Math.round(x)
+console.log(x)
+x = Math.floor(x)
+console.log(x)
+x = Math.ceil(x)
+console.log(x)
+x = Math.pow(x,2)
+console.log(x)
+x = Math.sqrt(x)
+console.log(x)
+x = Math.round(x)
+console.log(x)
+x = Math.abs(x)
+console.log(x)
+
+
+
+let a;
+let b;
+let c;
+
+a=document.getElementById("submitbuton").onclick = function(){
+    a=document.getElementById("aTextbox").value;
+    a=Number(a)
+    b=document.getElementById("bTextbox").value;
+    b=Number(b)
+
+    c=Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
+    document.getElementById("clabel").innerHTML = "SideC:" + c;
+}
