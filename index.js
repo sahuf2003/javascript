@@ -83,3 +83,13 @@ a=document.getElementById("submitbuton").onclick = function(){
     c=Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
     document.getElementById("clabel").innerHTML = "SideC:" + c;
 }
+
+const teacher ={
+    registration:"123456",
+    fullname:"Sandeep",
+    years:33,
+}
+
+for(key in  teacher){
+    console.log(key, teacher[key])
+}
