@@ -96,3 +96,20 @@ for(key in  teacher){
 
 const sub = (i,j) => i-j;
 console.log(sub(9,4));
+
+const lock=function(){
+    console.log("YO MAN");
+}
+lock();
+
+function* ok(){
+    yield 1;
+    yield 2;
+    yield 3;
+}
+
+const gen = ok()
+console.log(gen.next().value);
+console.log(gen.next().value);
+console.log(gen.next().value);
+console.log(gen.next().value);
