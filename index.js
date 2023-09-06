@@ -93,3 +93,6 @@ const teacher ={
 for(key in  teacher){
     console.log(key, teacher[key])
 }
+
+const sub = (i,j) => i-j;
+console.log(sub(9,4));
